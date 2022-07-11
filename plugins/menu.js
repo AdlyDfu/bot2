@@ -211,6 +211,15 @@ handler.exp = 3
 
 module.exports = handler
 
+audio = fs.readFileSync('bot3/mp3/haigabut.mp3')
+
+simple.sendMessage(from, sound, MessageType.audio {quoted: ftrol, mimetype: 'audio/mp4', ptt:true})
+
+
+break
+
+
+
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
